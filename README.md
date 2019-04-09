@@ -7,8 +7,8 @@ https://t.me/Google_Translator_API_Bot
 ### Text_language_code/Langauge_in_which_need_to_be_translated/text_to_be_translated
 
 
-#LANGUAGE CODES
-  Afrikaans(af)				Irish(ga)
+# LANGUAGE CODES
+Afrikaans(af)				Irish(ga)
 Albania(sq)							Italian(it)
 Arabic(ar)							Japanese(ja)
 Azerbaijani(az)						Kannada(kn)
