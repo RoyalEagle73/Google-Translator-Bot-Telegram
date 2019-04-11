@@ -5,6 +5,6 @@ https://t.me/Google_Translator_API_Bot
 ## Format
 
 ### FROM_LANGUAGE to_language DATA TO BE TRANSLATED 
-    ( NOT CASE SENSITIVE )
+    ( English Hindi Hi there, what's going on )  
     
 ## FOR SCREENSHOTS CHECKOUT WIKI SECTION
