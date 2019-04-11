@@ -4,39 +4,6 @@ https://t.me/Google_Translator_API_Bot
 
 ## Format
 
-### Text_language_code/Langauge_in_which_need_to_be_translated/text_to_be_translated
-
-
-# LANGUAGE CODES
-Afrikaans(af)				Irish(ga)
-Albania(sq)							Italian(it)
-Arabic(ar)							Japanese(ja)
-Azerbaijani(az)						Kannada(kn)
-Basque(eu)							Korean(ko)
-Bengali(bn)							Latin(la)
-Belarusian(be)						Latvia(lv)
-Bulgarian(bg)						Lithuanian(lt)
-Catalan(ca)							Macedonian(mk)
-Chinese Simplified(zh-CN)			Malay(ms)
-Chinese Traditional(zh-TW)			Maltese(mt)
-Croatian(hr)						Norwegian(no)
-Czech(cs)							Persian(fa)
-Danish(da)							Polish(pl)
-Dutch(nl)							Polishrtuguese(pt)
-English(en)							Romanian(ro)
-Esperanto(eo)						Russian(ru)
-Estonian(et)						Serbian(sr)
-Filipino(tl)						Slovak(sk)
-Finnish(fi)							Slovenian(sl)
-French(fr)							Spanish(es)
-Galician(gl)						Swahili(sw)
-Georgian(ka)						Swedish(sv)
-German(de)							Tamil(ta)
-Greek(el)							Telugu(te)
-Gujarati(gu)						Thai(th)
-Haitian Creole(ht)					Turkish(tr)
-Hebrew(iw)							Ukrainian(uk)
-Hindi(hi)							Urdu(ur)
-Hungarian(hu)						Vietnamese(vi)
-Icelandic(is)						Welsh(cy)
-Indonesian(id)						Yiddish(yi)
+### FROM_LANGUAGE to_language DATA TO BE TRANSLATED 
+    ### ( NOT CASE SENSITIVE )
+## FOR SCREENSHOTS CHECKOUT WIKI SECTION
