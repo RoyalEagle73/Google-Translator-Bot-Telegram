@@ -1,8 +1,8 @@
 # Google-Translator-Bot-Telegram
 ## LINK :
-https://t.me/Google_Translator_API_Bot
+https://web.telegram.org/Google_Translator_API_Bot
 
-( [CLICK ME...](https://t.me/Google_Translator_API_Bot) )
+( [CLICK ME...](https://web.telegram.org/Google_Translator_API_Bot) )
 
 ## Format
 
