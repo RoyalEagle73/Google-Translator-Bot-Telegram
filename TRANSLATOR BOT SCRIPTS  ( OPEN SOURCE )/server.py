@@ -19,7 +19,6 @@ lang_list = """ **** LANGUAGE LIST ( NOT CASE SENSITIVE ) ****\n\tAlbania       
 
 def make_reply(msg):
     reply = None
-    msg = msg.lower()
     if msg == "languages":
         reply = lang_list
         return reply
@@ -27,21 +26,23 @@ def make_reply(msg):
         reply = '**** Welcome To Translator Bot ****,\nSend /help or click on it for help...\nSend /languages or click on it to get supported list of languages...'
         return reply
     elif msg == "/help":
-        reply = """**** Welcome To Translation Bot ****\n\n1)To use the bot use following format :\n\n\tFrom_Language To_language  Data\n\t\tFor example,\n\t\tEnglish Spanish Hello there\n\n2)For recieveing supported language list, send\n\t /languages to us or click on... """
+        reply = """**** Welcome To Translation Bot ****\n\n1)To use the bot use following format :\n\n\tLanguage to translate into  Sentence to translate\n\t\tFor example,\n\t\tSpanish Hello there\n\n2)For recieveing supported language list, send\n\t /languages to us or click on... """
         return reply
     elif msg == "/languages":
         return lang_list
-
+    if msg is None:
+        reply = "Please do not edit last messages :)"
+        return  reply
     else:
+        msg = msg.lower()
         try:
             my_list = msg.split()
-            lang1 = lang_dict[my_list[0].lower()]
-            lang2 = lang_dict[my_list[1].lower()]
+            lang = lang_dict[my_list[0].lower()]
             text = ""
-            for i in range(2, len(my_list)):
+            for i in range(1, len(my_list)):
                 text += my_list[i] + " "
             
-            reply = translator_script.text(lang1, lang2, text)
+            reply = translator_script.text(lang, text)
             return reply    
         
         except Exception as e:
@@ -61,7 +62,7 @@ while True:
             except:
                 message = None
             try:
-                print("try")
+                print("Message Request recieved")
                 from_ = item["message"]["from"]["id"]
             except Exception as e:
                 print("catch block")
